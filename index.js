@@ -24,7 +24,7 @@ const insultDisplay = document.getElementById("insult")
 const burgerFlipperAudio = document.getElementById("burgerFlipper")
 const wagieAudio = document.getElementById("wagie")
 
-function getRandomElement(list, history, historySize = 3) {
+function getRandomElement(list, history, historySize = 5) {
     let randomElement;
     let attempts = 0;
     const maxAttempts = list.length * 2;
