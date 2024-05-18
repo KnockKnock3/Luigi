@@ -3,9 +3,23 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>You are a luigi</title>
+    <link rel="stylesheet" href="style.css"></link>
 </head>
 <body>
-    <h1>Hello World!</h1>
+    <div id="display">
+        <div class="text">You are</div>
+        <div class="text" id="insult">Luigi</div>
+        <button id="rerollButton" onclick="reroll()">New</button>
+    </div>
+    <audio id="burgerFlipper">
+        <source src="burgerFlipper.mp3" type="audio/mpeg">
+        Your browser does not support the audio element.
+    </audio>
+    <audio id="wagie">
+        <source src="wagie.mp3" type="audio/mpeg">
+        Your browser does not support the audio element.
+    </audio>
+    <script src="index.js"></script>
 </body>
 </html>
